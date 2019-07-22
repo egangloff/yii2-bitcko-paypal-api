@@ -36,7 +36,8 @@ Once the extension is installed, simply use it in your code by  :
 return [
     'adminEmail' => 'admin@example.com',
     'payPalClientId'=>'app client id here',
-    'payPalClientSecret'=>'app client secret here'
+    'payPalClientSecret'=>'app client secret here',
+    'paypalMode'=>'sandbox' //sandbox or live
 ];
 
 
