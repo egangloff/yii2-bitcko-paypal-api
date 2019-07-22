@@ -33,6 +33,7 @@ class PayPalRestApi
             )
         );
         $this->apiContext = $apiContext;
+        $this->apiContext->setConfig(['mode'=>Yii::$app->params['paypalMode']]);
     }
 
 
